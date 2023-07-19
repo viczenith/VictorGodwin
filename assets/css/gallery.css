@@ -1,0 +1,185 @@
+/* PORTFOLIO SECTION */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+	--white: #fff;
+	--brightgreen: #69e720;
+	--Forestgreen: #30680f;
+	--black:#000; 
+	--teal:rgb(4, 100, 100); 
+	--tealDark:rgb(5, 26, 26); 
+}
+.call-chat-link{
+    color: var(--brightgreen);
+    font-size: 25px;
+    background-color: var(--teal);
+    padding: .1rem 1rem;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.call-chat-link:hover{
+    text-decoration: underline;
+    transition: 1s;
+    background-color: var(--tealDark);
+}
+
+
+body{
+    background-image: url(../images/background.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    background-color: black;
+
+}
+/*#portfolio{
+    background-image: url(../images/background.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    background-color: black;
+}*/
+#portfolio .block_title{
+  margin-bottom: 4rem;
+}
+
+.port {
+	list-style: none;
+	text-align: left;
+}
+
+.port .item {
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+.port figure {
+	margin: 0;
+	position: relative;
+}
+
+.port figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.port figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #111;
+	color: var(--brightgreen);
+}
+
+.port figcaption h3 {
+	margin: 0px 0px 8px 0px;
+	padding: 0;
+	color: var(--white);
+}
+
+.port figcaption span:before {
+	content: '';
+}
+
+.port figcaption a {
+	text-align: center;
+	padding: 8px 15px;
+	display: inline-block;
+	color: var(--white);
+}
+
+.cs-style-3 figure {
+	overflow: hidden;
+}
+
+.cs-style-3 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+	-webkit-transform: translateY(-50px);
+	-moz-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+}
+
+.cs-style-3 figcaption {
+	height: 100px;
+	width: 100%;
+	top: auto;
+	bottom: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+	position: absolute;
+	bottom: 31px;
+	right: 20px;
+}
+.button{
+	background: transparent;
+	border: 1px solid var(--white);
+}
+.button:hover {
+    background: var(--white);
+    color: var(--black);
+}
+.btn-center {
+    display: block;
+    padding: 80px 0px 60px 0px;
+    text-align: center;
+}
+.big.button {
+    border: 1px solid var(--black);
+    font-size: 2em;
+    color: var(--black);
+    padding: 15px 30px;
+}
+.big.button:hover {
+    background: var(--black);
+    color: var(--white);
+}
+.item-space {
+    margin-bottom: 30px;
+	
+}
+.item-space img{
+    width: 100%;
+	height: 30vh;	
+}
+
+.btn-center a{
+    padding: 1rem 2rem;
+}

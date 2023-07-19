@@ -1,0 +1,476 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .homePage .home-sect h1{
+        font-size: 60px !important;
+        margin-bottom: 1rem;
+        letter-spacing: 1px;
+        margin-top: 20rem;
+    }
+    .homePage .home-sect h5{
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        font-weight: 200;
+        background-color: rgba(0,0,0,.9);
+        padding: 1rem;
+        width: 80%;
+    }
+    .homePage .home-sect a{
+        padding-top: 0;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+    #services{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 120vh;
+    }
+    .service-container img{
+        display: none;
+    }
+    .row-flex{
+        display: block;
+        /* margin-left: 1.3rem; */
+    }
+    .col-sm-4{
+        margin-bottom: 2rem;
+    }
+    #portfolio{
+        background-image: url(../images/background.jfif);
+        height: 260vh;
+        padding-top: 15rem;
+    }
+    #portfolio .container h2{
+        padding-bottom: 2rem;
+    }
+    /* TESTIMONIAL SECTION */
+    #testimonial {
+       height: 150vh !important;
+       padding-top: 2rem;
+    }
+    #testimonial-container{
+        display: block;
+        margin-top: 3rem;
+    }
+    .testm-2{
+        margin-top: 3rem;
+    }
+}
+
+/*Next Hub Max*/
+@media only screen and (min-width: 1280px) {
+    .homePage{
+    height: 94vh;
+    }
+    .homePage .home-sect h1{
+        margin-left: 20rem;
+    }
+    .homePage .home-sect h5{
+        margin-left: 13rem;
+    }
+    .homePage .home-sect a{
+        margin-left: -10rem;
+    }
+
+    #services{
+        height: 110vh;
+    }
+    #portfolio{
+        height: 110vh !important;
+    }
+     #testimonial {
+        height: 100vh !important;
+    }
+
+    #contact {
+        padding-top: 20rem;
+        height: 126vh !important;
+    }
+}
+/*Next Hub*/
+@media only screen and (min-width: 1024px) {
+    .homePage{
+    height: 94vh;
+    }
+    .homePage .home-sect h1{
+        margin-left: 20rem;
+    }
+    .homePage .home-sect h5{
+        margin-left: 13rem;
+    }
+    .homePage .home-sect a{
+        margin-left: -10rem;
+    }
+
+    #services{
+        height: 140vh;
+    }
+    #portfolio{
+        height: 120vh !important;
+    }
+     #testimonial {
+        height: 100vh !important;
+    }
+
+    #contact {
+        padding-top: 15rem;
+      height: 160vh !important;
+    }
+}
+
+
+/*IPAD MINI */
+@media only screen and (max-width: 768px) {
+     .homePage{
+        height: 70vh !important;
+    }
+    .container-sm{
+        display: inline-block !important;
+    }
+    .col-sm-4{
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    #services{
+        height: 190vh !important;
+    }
+     #portfolio{
+        padding-top: 10rem !important;
+        height: 100vh !important;
+    }
+     #testimonial{
+        height: 50vh !important;
+/*        display: none;*/
+    }
+
+    #contact {
+        height: 90vh !important;
+    }
+    #social {
+        height: 20vh !important;
+    }
+}
+
+/*IPAD AIR */
+@media only screen and (max-width: 820px) {
+     .homePage{
+        height: 70vh !important;
+    }
+    .homePage .home-sect h1{
+        padding-top: 6rem;
+        margin-left: 10rem;
+    }
+    .homePage .home-sect h5{
+        font-size: 20px;
+        margin-left: 10rem;
+        background-color: rgba(0,0,0,.9);
+    }
+    .homePage .home-sect a{
+        padding-top: 0;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+    .container-sm{
+        display: inline-block !important;
+    }
+    .col-sm-4{
+        padding-left: 15rem;
+        margin-bottom: 2rem;
+    }
+    #services{
+        height: 170vh !important;
+    }
+     #portfolio{
+        padding-top: 1rem;
+        height: 100vh !important;
+    }
+     #testimonial{
+        height: 50vh !important;
+/*        display: none;*/
+    }
+
+    #contact {
+        height: 90vh !important;
+    }
+    #social {
+        height: 20vh !important;
+    }
+}
+
+
+/*Samsung Galexy S20 Ultra*/
+@media only screen and (max-width: 412px) {
+     .homePage{
+        height: 100vh !important;
+    }
+
+    #services{
+        height: 160vh !important;
+        padding-left: 2rem !important;
+    }
+    .col-sm-4{
+        padding-left: 1rem!important;
+        margin-bottom: 2rem;
+    }
+     #portfolio{
+        height: 240vh !important;
+    }
+     #testimonial{
+        height: 100vh !important;
+    }
+
+    #contact {
+        height: 120vh !important;
+    }
+    #social {
+/*        margin-top: 0!important;*/
+        height: 40vh !important;
+    }
+}
+
+
+/*GALLAXY 51/71*/
+/*@media only screen and (max-width: 280px) {
+    #services{
+        height: 220vh !important;
+        margin-left: -8rem;
+    }
+     #portfolio{
+        height: 265vh;
+    }
+     #testimonial {
+       height: 160vh !important;
+    }
+
+    #contact {
+      height: 120vh !important;
+    }
+}*/
+
+/*SURFACE DUO*/
+@media only screen and (max-width: 540px) {
+     .homePage{
+        height: 100vh !important;
+    }
+    .homePage .home-sect h1{
+        padding-top: 6rem !important;
+        margin-left: 5rem;
+    }
+    .homePage .home-sect h5{
+        font-size: 20px;
+        margin-left: 5rem;
+        background-color: rgba(0,0,0,.9);
+    }
+    .homePage .home-sect a{
+        padding-top: 0;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-left: 10rem;
+    }
+    #services{
+        height: 200vh !important;
+    }
+      .col-sm-4{
+        padding-left: 6rem;
+        margin-bottom: 2rem;
+    }
+     #portfolio{
+        height: 280vh!important;
+    }
+     #testimonial {
+       height: 70vh !important;
+    }
+
+    #contact {
+      height: 130vh !important;
+    }
+    #social {
+        height: 40vh !important;
+    }
+}
+
+
+/*IPHONE XR*/
+@media only screen and (max-width: 414px) {
+    .homePage{
+        height: 95vh !important;
+    }
+    #services{
+        height: 160vh !important;
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+      .col-sm-4{
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+    }
+     #portfolio{
+        height: 260vh !important;
+    }
+     #testimonial {
+        height: 60vh !important;
+    }
+
+    #contact {
+        height: 120vh !important;
+    }
+    #social {
+        margin-top: 1rem;
+    height: 40vh !important;
+    }
+}
+
+/*IPHONE 12 PRO*/
+/*@media only screen and (max-width: 390px) {
+    .homePage{
+        height: 90vh !important;
+    }
+    #services{
+        height: 140vh !important;
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+    .homePage .home-sect h1{
+        padding-top: 0 !important;
+        margin-left: 5rem;
+    }
+    .homePage .home-sect h5{
+        font-size: 20px;
+        margin-left: 3rem;
+        background-color: rgba(0,0,0,.9);
+    }
+     #portfolio{
+        height: 300vh !important;
+    }
+     #testimonial {
+        height: 60vh !important;
+    }
+
+    #contact {
+        height: 120vh !important;
+    }
+    #social {
+        margin-top: 0;
+        height: 30vh !important;
+    }
+}*/
+
+/*PIXEL 5, IPHONE 12 PRO*/
+@media only screen and (max-width: 393px) {
+    .homePage{
+        height: 90vh !important;
+    }
+    .homePage .home-sect h1{
+        padding-top: 0 !important;
+        margin-left: 5rem;
+    }
+    .homePage .home-sect h5{
+        font-size: 20px;
+        margin-left: 3rem;
+        background-color: rgba(0,0,0,.9);
+    }
+    #services{
+        height: 160vh !important;
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+     #portfolio{
+        height: 260vh !important;
+    }
+     #testimonial {
+        height: 60vh !important;
+    }
+
+    #contact {
+        height: 120vh !important;
+    }
+    #social {
+        margin-top: 0;
+    height: 30vh !important;
+    }
+}
+
+
+
+/*Samsung Gallaxy S8+*/
+/*@media only screen and (max-width: 360px) {
+    .homePage{
+    height: 110vh !important;
+    }
+    #services{
+        height: 120vh !important;
+    }
+    .col-sm-4{
+        padding-left: 0!important;
+        margin-bottom: 2rem;
+    }
+     #portfolio{
+        height: 280vh !important;
+    }
+     #testimonial {
+       height: 80vh !important;
+    }
+
+    #contact {
+      height: 155vh !important;
+    }
+     #social {
+    height: 40vh !important;
+    }
+}
+*/
+
+/*IPHONE SE*/
+@media only screen and (max-width: 375px) {
+    .homePage{
+    height: 110vh !important;
+    }
+    .homePage .home-sect h5{
+        font-size: 20px;
+        margin-left: 2rem;
+        background-color: rgba(0,0,0,.9);
+    }
+
+    #services{
+        height: 210vh !important;
+    }
+    .col-sm-4{
+        padding-left: 0!important;
+        margin-bottom: 2rem;
+    }
+     #portfolio{
+        height: 290vh !important;
+    }
+     #testimonial {
+       height: 80vh !important;
+    }
+
+    #contact {
+      height: 155vh !important;
+    }
+     #social {
+    height: 40vh !important;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) {
+  
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/*@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}*/
